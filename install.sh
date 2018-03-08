@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #variaveis
-arch="amd64"
 
 #check dependencias
 
@@ -14,13 +13,13 @@ apt update
 echo "================================================="
 echo "instalando os pacotes necessarios para a compilação"
 echo "================================================="
-apt install build-essential automake autoconf linux-headers-$arch dkms wget -y
+apt install build-essential automake autoconf linux-headers-$(uname -r) dkms wget -y
 
 echo "================================================="
 echo "criando e acessando o diretorio para o novo driver"
 echo "================================================="
-mkdir /home/nil/realtek-usb
-cd /home/nil/realtek-usb
+mkdir /home/completi/realtek-usb
+cd /home/completi/realtek-usb
 
 echo "================================================="
 echo "realizando o download do novo driver"
