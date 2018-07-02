@@ -18,19 +18,20 @@ apt install build-essential automake autoconf linux-headers-$(uname -r) dkms wge
 echo "================================================="
 echo "criando e acessando o diretorio para o novo driver"
 echo "================================================="
-mkdir /home/completi/realtek-usb
-cd /home/completi/realtek-usb
+mkdir /home/completi/realtek-8152-2016
+cd /home/completi/realtek-usb-8152-2016
 
 echo "================================================="
 echo "realizando o download do novo driver"
 echo "================================================="
-wget http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/cn/nic/0008-r8152.53-2.09.0.tar.bz2
+wget http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/cn/nic/0007-r8152.53-2.08.0.bz2
 
 echo "================================================="
 echo "descompactando e acessando o arquivo do novo driver"
 echo "================================================="
-tar jxvf 0008-r8152.53-2.09.0.tar.bz2
-cd r8152-2.09.0
+tar jxvf 0007-r8152.53-2.08.0.bz2
+cd r8152-2.08.0
+
 
 echo "================================================="
 echo "compilando o novo driver"
