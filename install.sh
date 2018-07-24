@@ -19,7 +19,7 @@ echo "================================================="
 echo "criando e acessando o diretorio para o novo driver"
 echo "================================================="
 mkdir /home/completi/realtek-8152-2016
-cd /home/completi/realtek-usb-8152-2016
+cd /home/completi/realtek-8152-2016
 
 echo "================================================="
 echo "realizando o download do novo driver"
