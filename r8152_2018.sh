@@ -18,7 +18,7 @@ apt install build-essential automake autoconf linux-headers-$(uname -r) dkms wge
 echo "================================================="
 echo "realizando o download do novo driver"
 echo "================================================="
-wget http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/cn/nic/0010-r8152.53-2.10.0.tar.bz2
+wget http://az695102.vo.msecnd.net/rtdrivers/cn/nic/0010-r8152.53-2.10.0.tar.bz2
 
 echo "================================================="
 echo "descompactando e acessando o arquivo do novo driver"
